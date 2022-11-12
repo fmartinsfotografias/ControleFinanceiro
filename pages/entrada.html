@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/PROJETO-Controle-Financeiro/styles.css" />
+    <link rel="stylesheet" href="/PROJETO-Controle-Financeiro/reset.css" />
+    <title>Controle Financeiro Residencial</title>
+  </head>
+  <header class="header">
+    <a href="../index.html">MENU</a>
+    <a href="/PROJETO-Controle-Financeiro/pages/despesas.html">DESPESAS</a>
+    <a href="#">RELATORIOS</a>
+  </header>
+
+  <body>
+    <div class="cabecalho">
+      <h1>Controle Financeiro Familiar</h1>
+      <h2>Receitas / Entradas</h2>
+    </div>
+    <div class="container">
+      <input type="text" class="" name="" id="empresa" placeholder="Empresa" />
+      <label for="cars"></label>
+      <select id="categoria" name="categoria" aria-placeholder="Categoria">
+        <option value="Salario">Salario</option>
+        <option value="Telefonia">Renda Extra</option>
+        <option value="Carro">Dividendos</option>
+        <option value="Saude">Herança</option>
+      </select>
+      <input type="date" name="" id="data" placeholder="Data" />
+      <input type="number" name="" id="valor" placeholder="Valor R$" />
+      <button id="botao">Cadastrar</button>
+      <br />
+      <br />
+    </div>
+    <div class="resultados">
+      <span id="resultado">SEJA BEM VINDO</span>
+      <p>Total Receitas</p><span id="totalReceitas"></span>
+      <span></span><span id="resultado-total"></span>
+      <br />
+      </table>
+      <table class="tabela">
+        <tr class="tr-tabela">
+          <td class="resposta-titulo">Empresa</td>
+          <td class="resposta" id="resultadoEmpresa">teste</td>
+
+          <td class="resposta-titulo">Recebimento</td>
+          <td class="resposta" id="resultadoRecebimento">teste</td>
+
+          <td class="resposta-titulo">Data</td>
+          <td class="resposta" id="resultadoData">teste</td>
+          <td class="resposta-titulo">Valor</td>
+          <td class="resposta" id="resultadoValor">teste</td>
+
+
+        </tr>
+  
+      </table>
+    </div>
+  </body>
+  <script src="/PROJETO-Controle-Financeiro/main.js"></script>
+  <script src="/PROJETO-Controle-Financeiro/script/dados-usuarios.js"></script>
+</html>
